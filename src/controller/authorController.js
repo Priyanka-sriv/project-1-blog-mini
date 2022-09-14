@@ -9,7 +9,6 @@ const isValid = function(value){
   return true
 }
 
-
 const createAuthor = async (req, res) => {
   try {
     let data = req.body;
